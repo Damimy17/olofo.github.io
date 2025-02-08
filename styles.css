@@ -1,0 +1,170 @@
+body {
+    background-image: url('bg.JPG'); /* Replace with the actual image path */
+    background-size: cover; /* Ensures the image covers the entire screen */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents tiling */
+    /* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  /* Header */
+  header {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 20px;
+  }
+  
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header .logo h1 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  header .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  header .nav-links li {
+    margin-left: 20px;
+  }
+  
+  header .nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  header .nav-links li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    color: rgb(14, 13, 13);
+    padding: 80px 20px;
+  }
+  
+  .hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .hero .cta-button {
+    background-color: #ff9900;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .hero .cta-button:hover {
+    background-color: #e68900;
+  }
+  
+  /* Features Section */
+  .features {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 40px 0;
+  }
+  
+  .feature-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+    width: 250px;
+  }
+  
+  .feature-card h3 {
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: #0066cc;
+  }
+  
+  .feature-card p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  footer .footer-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  footer .footer-links li {
+    margin-left: 20px;
+  }
+  
+  footer .footer-links li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  footer .footer-links li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    header nav {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    header .nav-links {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .features {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .feature-card {
+      width: 80%;
+      margin-bottom: 20px;
+    }
+  }
+  
+}
